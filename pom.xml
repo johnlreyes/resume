@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="	
+		http://maven.apache.org/POM/4.0.0 
+		http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>resume</groupId>
+	<artifactId>resume-POM</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
+		<docbkx-maven-plugin.version>2.0.14</docbkx-maven-plugin.version>
+		<docbook-xml.version>5.0</docbook-xml.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.agilejava.docbkx</groupId>
+				<artifactId>docbkx-maven-plugin</artifactId>
+				<version>${docbkx-maven-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>draft-output</id>
+						<phase>pre-site</phase>
+						<goals>
+							<goal>generate-pdf</goal>
+							<goal>generate-html</goal>
+							<goal>generate-xhtml</goal>
+							<goal>generate-rtf</goal>
+						</goals>
+						<configuration>
+							<draftMode>no</draftMode>
+						</configuration>
+					</execution>
+				</executions>
+				<configuration>
+					<sourceDirectory>${basedir}/src/main/docbkx</sourceDirectory>
+					<includes>johnlreyes.dbk</includes>
+					<generatedSourceDirectory>${project.build.directory}/docbkx/generated</generatedSourceDirectory>
+					<xincludeSupported>true</xincludeSupported>
+					<highlightSource>1</highlightSource>
+					<paperType>A4</paperType>
+					<fop1Extensions>1</fop1Extensions>
+					<foCustomization>src/main/resources/stylesheets/fo/docbook.xsl</foCustomization>
+					<generateToc>figure</generateToc>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.docbook</groupId>
+						<artifactId>docbook-xml</artifactId>
+						<version>${docbook-xml.version}</version>
+						<type>pom</type>
+						<scope>runtime</scope>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<phase>site</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<mkdir dir="release"/>
+								<copy overwrite="true" file="${project.build.directory}/docbkx/pdf/johnlreyes.pdf" tofile="release/johnlreyes_${maven.build.timestamp}.pdf"/>                               
+								<copy overwrite="true" file="${project.build.directory}/docbkx/rtf/johnlreyes.rtf" tofile="release/johnlreyes_${maven.build.timestamp}.rtf"/>                               
+							</target>
+						</configuration>                        
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
