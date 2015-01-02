@@ -99,97 +99,167 @@
 	<section>
 		<title font-size="10pt">Experience</title>
 		<informaltable frame='all'>
-			<tgroup cols='3' align='left'>
+			<tgroup cols='2' align='left'>
 				<colspec colwidth="1*"/>
 				<colspec colwidth="4*"/>
 				<tbody>
 					<row>
 						<entry><emphasis>05/11-present</emphasis></entry>
-						<entry>Senior IT Specialist</entry>
-						<entry>IBM Solutions Delivery, Inc.</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Senior IT Specialist</entry>
+											<entry>IBM Solutions Delivery, Inc.</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development with various Content Management System platforms and other Java projects. Cloudant technical lead to multiple projects. Using J2EE, RAD, WAS, CVS, AIX, DB2, Couchdb/Cloudant, Couchapp, WCM, XSLT, SOAP, REST, Firefox plugin, Chrome extension</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry><emphasis>07/11-07/14</emphasis></entry>
 						<entry>Developer, Part-time freelance, TeamExtension.</entry>
 					</row>
 					<row>
 						<entry></entry>
-						<entry></entry>
 						<entry>Java based Web Application development (http://www.mapcentrix.com/, http://www.zaahah.com/, http://pushmon.com/), firefox plugin development (https://addons.mozilla.org/en-US/firefox/addon/memory-restart/) and blogs (http://blog.teamextension.com/author/jreyes). Using Maven, Spring (MVC, Data, Security, JDBC template), JPA, GIT, PosgreSQL, MySQL, Liquibase, Lucene, JQuery, Thymeleaf, Freemarker, Jasper report, Google Map api v3, Google Map clusterer</entry>
 					</row>
 					<row>
 						<entry><emphasis>02/09-05/11</emphasis></entry>
-						<entry>Consultant</entry>
-						<entry>SmartWare Systems Inc.</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Consultant</entry>
+											<entry>SmartWare Systems Inc.</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Java based Web Application development of Health/Hospital systems. Overhaul of project build system to continous build with automated static code anaylys and automated testing. Introduced automated testing with the QA team. Using Maven, ANT, Hudson, J2EE, JPA, AspectJ, Eclipse, IntelliJ, Netbeans, Weblogic 11g, Oracle DB, Sonar, STIQ/Selenium, Virtual box, Oracle Enterprise Linux, Oracle SOA Suites, Liquibase, SVN, YSlow, PageSpeed, Quest SQL, HTMLCompressor, Nexus/Artifactory</entry>
 					</row>
 					<row>
 						<entry><emphasis>06/07-01/09</emphasis></entry>
-						<entry>IT Consultant(Analyst/Programmer)</entry>
-						<entry>RCG Information Technology</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>IT Consultant(Analyst/Programmer)</entry>
+											<entry>RCG Information Technology</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development of Java based Web Applications (on-site at Schaumburg Illinois USA for a year). Using MyEclipse, Eclipse/WSAD, Spring (MVC, WebFlow, Acegi, Jasper), JBoss, JavaMail, JAXB, MySQL, Hibernate, YUI,  Prototype, JSP-TagFiles, Jasper Reports, Jakarta POI, Itext, Hudson, YSlow, Selenium-IDE, Selenium-RC, JConsole, JMeter, SVN</entry>
 					</row>
 					<row>
 						<entry><emphasis>10/06-04/07</emphasis></entry>
-						<entry>Programmer/IT Specialist</entry>
-						<entry>QuantSys Software Corporation</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Programmer/IT Specialist</entry>
+											<entry>QuantSys Software Corporation</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Officer in charge with cebu office. Project manager with a foreclosure php web application. Lead developer with a sip based java project. Using Eclipse, JBoss, Mobicents, MySQL, PosgreSQL, SVN, Linux, PHP5, Paypal integration</entry>
 					</row>
 					<row>
 						<entry><emphasis>03/05-10/06</emphasis></entry>
-						<entry>Developer</entry>
-						<entry>Geeks Computer Services</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Developer</entry>
+											<entry>Geeks Computer Services</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development of various java based web application projects. Using Eclipse, Tomcat, MySQL, CVS</entry>
 					</row>
 					<row>
 						<entry><emphasis>03/04-03/05</emphasis></entry>
-						<entry>Developer</entry>
-						<entry>Freelance</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Developer</entry>
+											<entry>Freelance</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development of various java based utility applications. Using Eclipse,  Tomcat, Jakarta libraries, JAMES, Derby, Linux, MySQL, PosgreSQL, HTTPClient, CVS</entry>
 					</row>
 					<row>
 						<entry><emphasis>11/00-03/04</emphasis></entry>
-						<entry>Software Design Engineer II</entry>
-						<entry>NEC Telecom Software Philippines</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>Software Design Engineer II</entry>
+											<entry>NEC Telecom Software Philippines</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development of J2EE based application to manage Telecom hardware (deployed to Tamagawa Japan for a total of 6 months). Using J2EE, Java applet, JMS, Jbuilder IDE, Borland AppServer, JavaText Editor, Eclipse, JONAS, OPENORB, JProbe Suite, JBoss, PosgreSQL, MySQL, Solaris, Linux, RougeWave libraries</entry>
 					</row>
 					<row>
 						<entry><emphasis>06/97-03/00</emphasis></entry>
-						<entry>College on the job trainee</entry>
-						<entry>Microserv Computer Center</entry>
+						<entry>
+							<informaltable frame='all'>
+								<tgroup cols='1' align='left'>
+									<tbody>
+										<row>
+											<entry>College on the job trainee</entry>
+											<entry>Microserv Computer Center</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</informaltable>
+						</entry>
 					</row>
 					<row>
-						<entry></entry>
 						<entry></entry>
 						<entry>Development of a health clinic billing system, beverage distribution inventory system, software and hardware based internet cafe management system. Using MS Access, visual basic, electric switch</entry>
 					</row>					
