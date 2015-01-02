@@ -99,7 +99,7 @@
 	<section>
 		<title font-size="10pt">Experience</title>
 		<informaltable frame='all'>
-			<tgroup cols='2' align='left'>
+			<tgroup cols='3' align='left'>
 				<colspec colwidth="1*"/>
 				<colspec colwidth="4*"/>
 				<tbody>
