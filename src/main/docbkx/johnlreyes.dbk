@@ -106,18 +106,8 @@
 					<row>
 						<entry><emphasis>05/11-present</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Senior IT Specialist</entry>
-										</row>
-										<row>
-											<entry>IBM Solutions Delivery, Inc.</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Senior IT Specialist</emphasis>
+                                                        <emphasis>IBM Solutions Delivery, Inc.</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -135,18 +125,8 @@
 					<row>
 						<entry><emphasis>02/09-05/11</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Consultant</entry>
-										</row>
-										<row>
-											<entry>SmartWare Systems Inc.</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Consultant</emphasis>
+                                                        <emphasis>SmartWare Systems Inc. (CSAM health)</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -156,18 +136,8 @@
 					<row>
 						<entry><emphasis>06/07-01/09</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>IT Consultant(Analyst/Programmer)</entry>
-										</row>
-										<row>
-											<entry>RCG Information Technology</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>IT Consultant(Analyst/Programmer)</emphasis>
+                                                        <emphasis>RCG Information Technology</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -177,18 +147,8 @@
 					<row>
 						<entry><emphasis>10/06-04/07</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Programmer/IT Specialist</entry>
-										</row>
-										<row>
-											<entry>QuantSys Software Corporation</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Programmer/IT Specialist</emphasis>
+                                                        <emphasis>QuantSys Software Corporation</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -198,18 +158,8 @@
 					<row>
 						<entry><emphasis>03/05-10/06</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Developer</entry>
-										</row>
-										<row>
-											<entry>Geeks Computer Services</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Developer</emphasis>
+                                                        <emphasis>Geeks Computer Services</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -219,18 +169,8 @@
 					<row>
 						<entry><emphasis>03/04-03/05</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Developer</entry>
-										</row>
-										<row>
-											<entry>Freelance</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Developer</emphasis>
+                                                        <emphasis>Freelance</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -240,18 +180,8 @@
 					<row>
 						<entry><emphasis>11/00-03/04</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>Software Design Engineer II</entry>
-										</row>
-										<row>
-											<entry>NEC Telecom Software Philippines</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>Software Design Engineer II</emphasis>
+                                                        <emphasis>NEC Telecom Software Philippines</emphasis>
 						</entry>
 					</row>
 					<row>
@@ -261,18 +191,8 @@
 					<row>
 						<entry><emphasis>06/97-03/00</emphasis></entry>
 						<entry>
-							<informaltable frame='all'>
-								<tgroup cols='1' align='left'>
-									<tbody>
-										<row>
-											<entry>College on the job trainee</entry>
-										</row>
-										<row>
-											<entry>Microserv Computer Center</entry>
-										</row>
-									</tbody>
-								</tgroup>
-							</informaltable>
+							<emphasis role='bold'>College on the job trainee</emphasis>
+                                                        <emphasis>Microserv Computer Center</emphasis>
 						</entry>
 					</row>
 					<row>
